@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE==edge">
+<title>HBOOK : Product  </title>
+
+<link rel="stylesheet" href="../css/home.css">
+<link rel="stylesheet" href="../css/product.css">
+</head>
+<body>
+
+  <nav class="navbar"> </nav>
+   
+   <!-- product details-->
+   <section class="product-details">
+      <div class="image-slider">
+         <div class="product-images">
+            <img src="" class="active" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+            <img src="" alt="" />
+         </div>
+      </div>
+      <div class="details">
+         <h2 class="product-brand"></h2>
+         <p class="product-short-des"></p>
+         <span class="product-price"></span>
+         <span class="product-actual-price"></span>
+         <span class="product-discount"></span>
+
+         <p class="product-sub-heading"> select size </p>
+
+         <input type="radio" name="size" values="xs" hidden id="xs-size"/>
+         <label for="xs-size" class="size-radio-btn">xs</label>
+         <input type="radio" name="size" values="s" checked hidden id="s-size"/>
+         <label for="s-size" class="size-radio-btn check">s</label>
+         <input type="radio" name="size" values="m" hidden id="m-size"/>
+         <label for="m-size" class="size-radio-btn">m</label>
+         <input type="radio" name="size" values="l" hidden id="l-size"/>
+         <label for="l-size" class="size-radio-btn">l</label>
+         <input type="radio" name="size" values="xl" hidden id="s-size"/>
+         <label for="xl-size" class="size-radio-btn">xl</label>
+         <input type="radio" name="size" values="xxl" hidden id="s-size"/>
+         <label for="xxl-size" class="size-radio-btn">xxl</label>
+         <input type="radio" name="size" values="xxxl" hidden id="xxxl-size"/>
+         <label for="xxxl-size" class="size-radio-btn">xxxl</label>
+        
+        <div class="btn-group">
+        <button class="btn cart-btn"> add to cart </button>
+        <button class="btn"> add to reservation </button>
+        </div>
+        
+      </div>
+   </section>
+
+   <section class="detail-des">
+      <h2 class="heading"> Description </h2>
+      <p class="des">lorem1001lorem1001lorem1001lorem1001
+      lorem1001lorem1001lorem1001lorem1001lorem1001lorem1001
+      lorem1001lorem1001lorem1001lorem1001lorem1001lorem1001
+      lorem1001lorem1001lorem1001lorem1001lorem1001lorem1001</p>
+   </section>
+
+  <!-- cards container
+    <section class="product">
+     <h2 class="product-category"> Hotels </h2>
+     <button class="pre-btn"><img src="img-1/arrow.png" alt="#"></button>
+     <button class="nxt-btn"><img src="img-1/arrow.png" alt="#"></button>
+     <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-1697076.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Hotel..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-1838640.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Hotel..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-186181.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Hotel..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-2034335.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Hotel..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-2096983.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to resrvation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Hotel..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-2288281.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Hotel..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-2607113.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Hotel..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-261101.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the cloth..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+     </div>
+  </section > -->
+  
+  <section class="container-for-card-slider"></section>
+     <!-- cards container -->
+   <!-- <section class="product"> 
+     <h2 class="product-category"> Restaurants </h2>
+     <button class="pre-btn"><img src="img-1/arrow.png" alt="#"></button>
+     <button class="nxt-btn"><img src="img-1/arrow.png" alt="#"></button>
+     <div class="product-container">
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-261108.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Restaurants..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-261327.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the Restaurant..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-261388.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to resrvation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the restaurant..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-261395.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the restaurant..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-271631.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the restaurant..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-3201921.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the reservation..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-594077.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to whislist </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the restaurant..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount-tag"> 50% off</span>
+            <img src="img-4/pexels-photo-70441.jpeg" class="product-thumb" alt="#"/>
+            <button class="card-btn"> add to reservation </button>
+          </div>
+          <div class="product-info">
+            <h2 class="product-brand">brand</h2>
+            <p class="product-short-des">a short line about the restaurant..</p>
+            <span class="price">$20 </span><span class="actual-price">$40</span>
+          </div>
+        </div>
+     </div>
+    </section >  -->
+
+  
+  
+  <footer class="footer"></footer> 
+
+  <script src="../nav.js"></script>
+  <script src="../footer.js"></script>
+  <script src="../home.js"></script>
+  <script src="../product.js"></script>
+
+
+</body>
+</html>
