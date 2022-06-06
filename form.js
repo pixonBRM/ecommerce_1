@@ -24,21 +24,6 @@ const number = document.querySelector("#number") || null;
 const tac = document.querySelector("#terms-and-cond") || null;
 const notification = document.querySelector("#notification") || null;
 
-//send data function
-const sendData = (path, data) => {
-  //function for sending data to the server, path and data because same function is used for login and signup form
-  fetch(path, {
-    //fetch to send data
-    method: "post",
-    headers: new Headers({ "Content-Type": "application/json" }),
-    body: JSON.stringify(data),
-  })
-    .then((res) => res.json()) //catch the response
-    .then((response) => {
-      // then produce response
-      processData(response); // for processing the data        //console.log(response);  the response will be produced/ redirected to the login page
-    });
-};
 
 submitBtn.addEventListener("click", () => {
   // click event to submit button
